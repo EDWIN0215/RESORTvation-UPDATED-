@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "609476368481",
+    "firebase_url": "https://resortvation-5409c-default-rtdb.firebaseio.com",
+    "project_id": "resortvation-5409c",
+    "storage_bucket": "resortvation-5409c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609476368481:android:68a50c5d5481759374f220",
+        "android_client_info": {
+          "package_name": "com.example.resortvation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609476368481-mevqfrsvtkiud2akkorkg3sgmkqo9fu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzAqufGW-FvFJKubykitCLLzh4jhl6K_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609476368481-mevqfrsvtkiud2akkorkg3sgmkqo9fu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609476368481:android:81040ac7ad117f4274f220",
+        "android_client_info": {
+          "package_name": "ucucite.edu.resortvation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609476368481-mevqfrsvtkiud2akkorkg3sgmkqo9fu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzAqufGW-FvFJKubykitCLLzh4jhl6K_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609476368481-mevqfrsvtkiud2akkorkg3sgmkqo9fu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609476368481:android:2cb5f49cc8f697f674f220",
+        "android_client_info": {
+          "package_name": "ucucite.edu.resortvations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609476368481-mevqfrsvtkiud2akkorkg3sgmkqo9fu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzAqufGW-FvFJKubykitCLLzh4jhl6K_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609476368481-mevqfrsvtkiud2akkorkg3sgmkqo9fu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

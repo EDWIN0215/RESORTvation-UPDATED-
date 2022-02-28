@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payments"
+    android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/imageViewbg"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/page3bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:alpha="0.3"
+            />
+
+
+    <ImageView
+        android:id="@+id/whitebox"
+        android:layout_width="330dp"
+        android:layout_height="690dp"
+        android:src="@drawable/reservationstyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Payment Method"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whitebox" />
+
+    <ImageView
+        android:id="@+id/horizontalline"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/horizontalline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <ImageView
+        android:id="@+id/horizontalline2"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/horizontalline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="93dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/gcash"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalline"
+        app:layout_constraintStart_toStartOf="@+id/horizontalline"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalline" />
+
+    <EditText
+        android:id="@+id/resort1"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalline"
+        app:layout_constraintStart_toStartOf="@+id/horizontalline"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/resort2"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalline"
+        app:layout_constraintStart_toStartOf="@+id/horizontalline"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/resort3"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalline"
+        app:layout_constraintStart_toStartOf="@+id/horizontalline"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/resort4"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalline"
+        app:layout_constraintStart_toStartOf="@+id/horizontalline"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/resort5"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalline"
+        app:layout_constraintStart_toStartOf="@+id/horizontalline"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Full Name"
+        android:inputType="textCapCharacters"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/resort1"
+        app:layout_constraintStart_toStartOf="@+id/resort1"
+        app:layout_constraintTop_toBottomOf="@+id/resort1" />
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="MM/DD/YY"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/fullname"
+        app:layout_constraintStart_toStartOf="@+id/fullname"
+        app:layout_constraintTop_toBottomOf="@+id/fullname" />
+
+    <EditText
+        android:id="@+id/gcashnumber"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Gcash #"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/day"
+        app:layout_constraintStart_toStartOf="@+id/day"
+        app:layout_constraintTop_toBottomOf="@+id/day" />
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Pin Code"
+        android:inputType="numberPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#fff"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/gcashnumber"
+        app:layout_constraintStart_toStartOf="@+id/gcashnumber"
+        app:layout_constraintTop_toBottomOf="@+id/gcashnumber" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#92C4EE"
+        android:text="Home"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="@+id/pincode"
+        app:layout_constraintTop_toBottomOf="@+id/pincode" />
+
+    <Button
+        android:id="@+id/confirmbtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#92C4EE"
+        android:text="Proceed to confirm"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/pincode"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/backbtn"
+        app:layout_constraintTop_toBottomOf="@+id/pincode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

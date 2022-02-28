@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirm"
+    android:background="@drawable/reciept">
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/thanksreserve"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_resort1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        app:layout_constraintEnd_toEndOf="@+id/thanks"
+        app:layout_constraintStart_toStartOf="@+id/thanks"
+        app:layout_constraintTop_toBottomOf="@+id/thanks" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_resort2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        app:layout_constraintEnd_toEndOf="@+id/thanks"
+        app:layout_constraintStart_toStartOf="@+id/thanks"
+        app:layout_constraintTop_toBottomOf="@+id/thanks" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_resort3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        app:layout_constraintEnd_toEndOf="@+id/thanks"
+        app:layout_constraintStart_toStartOf="@+id/thanks"
+        app:layout_constraintTop_toBottomOf="@+id/thanks" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_resort4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        app:layout_constraintEnd_toEndOf="@+id/thanks"
+        app:layout_constraintStart_toStartOf="@+id/thanks"
+        app:layout_constraintTop_toBottomOf="@+id/thanks" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_resort5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        app:layout_constraintEnd_toEndOf="@+id/thanks"
+        app:layout_constraintStart_toStartOf="@+id/thanks"
+        app:layout_constraintTop_toBottomOf="@+id/thanks" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/confirm_resort1"
+        app:layout_constraintStart_toStartOf="@+id/confirm_resort1"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_resort1" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/confirm_fullname"
+        app:layout_constraintStart_toStartOf="@+id/confirm_fullname"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_fullname" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/confirm_gcashnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        app:layout_constraintEnd_toEndOf="@+id/confirm_date"
+        app:layout_constraintStart_toStartOf="@+id/confirm_date"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_date" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:id="@+id/press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif-monospace"
+        android:text="Press the back button to proceed to homepage"
+        app:layout_constraintEnd_toEndOf="@+id/confirm_gcashnumber"
+        app:layout_constraintStart_toStartOf="@+id/confirm_gcashnumber"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_gcashnumber" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="26dp"
+        android:text="back"
+        app:layout_constraintEnd_toEndOf="@+id/press"
+        app:layout_constraintStart_toStartOf="@+id/press"
+        app:layout_constraintTop_toBottomOf="@+id/press" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
